@@ -14,3 +14,10 @@ It stands for "Get Global Environment". It returns a table representing the exec
 
 You can directly access global variables and functions stored in getgenv() without needing to use `getgenv().variableName`. For example, if a variable is stored as `getgenv().myVariable`, you can access it directly by just using `myVariable`.
 However, if a local variable with the same name exists, the local variable will take precedence. In such cases, you must use `getgenv().variableName` to access the global variable.
+
+## Examples on the code `GetGenv():`
+
+```luau
+--// Creating a new global variable \\--
+getgenv().global_variable = "Hello, World!"
+```
