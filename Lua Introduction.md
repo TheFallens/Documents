@@ -4,7 +4,7 @@ for example
 ```luau
 print("Hello World");
 ```
-As you can see the example i put was `print("Anything Here!");` if you make any mistake there will be some errors like if you dont use straight quotations like for example **print(”Error Found”);** that will cause the script to put a question mark symbol on any executor you use
+As you can see the example i put was `print("Anything Here!");` if you make any mistake there will be some errors like if you dont use straight quotations like for example `**print(”Error Found”);**` that will cause the script to put a question mark symbol on any executor you use
 
 ## About the code `GetGenv():`
 ```luau
