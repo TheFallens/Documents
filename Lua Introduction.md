@@ -5,7 +5,7 @@ for example
 print("Hello World");
 ```
 
-## Function GetGenv():
+## About the code `GetGenv():`
 ```luau
 function getgenv(): { [string]: any }
 ```
